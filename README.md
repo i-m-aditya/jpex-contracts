@@ -15,11 +15,12 @@ contracts
 │  ├─ provideLiquidityToOptionSellersVault
 ├─ NftOptionSellersVaultFactory - "Create sellers vault which allows option writers to deposit NFT and mint option"
 ├─ NftOptionSellersVault — "It offers following functionalities:"
-│  ├─ bootstrap - Bootstraps a new epoch and mints option tokens equivalent to user deposits for the epoch
-│  ├─ depositNftAndMintOption / depositMultipleNftAndMintOptions
+│  ├─ bootstrap - "Bootstraps a new epoch and mints option tokens equivalent to user deposits for the epoch"
+│  ├─ depositNftAndMintOption
+│  ├─ depositMultipleNftAndMintOptions
 │  ├─ withdrawAllClaimableNFTs
 │  ├─ settle
-│  ├─ liquidateNFT - when option writer have not deposited the settlement difference in the alloted settlement window
+│  ├─ liquidateNFT - "When option writer have not deposited the settlement difference in the alloted settlement window"
 ```
 
 ## Safety
